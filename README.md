@@ -1,4 +1,4 @@
-# Data Structures & Algorithms (DSA) – Revision Repository
+## Data Structures & Algorithms (DSA) – Revision Repository
 
 Welcome to my **DSA Revision Repository**, where I consistently revise, document, and practice fundamental Data Structures and Algorithms to stay interview-ready and improve my problem-solving skills.
 
@@ -21,19 +21,19 @@ Each folder includes:
 
 ---
 
-## 🧠 Why This Repo Exists?
+## Why This Repo Exists?
 
 I created this repository to:
 
-✔ Keep my DSA concepts sharp  
-✔ Avoid forgetting fundamentals  
-✔ Maintain a structured record of problems  
-✔ Prepare for interviews & coding assessments  
-✔ Share clean DSA code with the community  
+ Keep my DSA concepts sharp  
+ Avoid forgetting fundamentals  
+ Maintain a structured record of problems  
+ Prepare for interviews & coding assessments  
+ Share clean DSA code with the community  
 
 ---
 
-## ✔️ Topics Covered
+##  Topics Covered
 
 ### **Data Structures**
 - Arrays  
@@ -81,7 +81,7 @@ This repo is open for learning & collaboration.
 For any discussion, suggestions, or collaboration:
 
 **Sumit K**   
-💼 Connect Here: ![https://sumit-kushwaha.vercel.app/] 
+💼 Connect Here:[Portfolio](https://sumit-kushwaha.vercel.app/) 
 
 ---
 
