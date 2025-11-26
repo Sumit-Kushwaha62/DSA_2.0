@@ -1,21 +1,35 @@
 //package 10_Stack;
-// Imlimenting stack using ArrayList:
+// Stack implimention by LinkedList:
+public class stackUsingLinkedList {
 
-import java.util.ArrayList;
+    static class Node {
+        int data;
+        Node next;
 
-public class stackUsingArrayList {
+        Node(int data) {
+            this.data = data;
+            this.next = null;
+
+        }
+    }
 
     static class Stack {
-        static ArrayList<Integer> list = new ArrayList<>();
+        static Node head = null;
 
-        // Check is empty stack:
         public static boolean isEmpty() {
-            return list.size() == 0;
+            return head == null;
         }
 
-        // push:
+        // push
         public static void push(int data) {
-            list.add(data);
+            Node newNode = new Node(data);
+
+            if (isEmpty()) {
+                head = newNode;
+                return;
+            }
+            newNode.next = head;
+            head = newNode;
         }
 
         // pop
@@ -23,8 +37,9 @@ public class stackUsingArrayList {
             if (isEmpty()) {
                 return -1;
             }
-            int top = list.get(list.size() - 1);
-            list.remove(list.size() - 1);
+
+            int top = head.data;
+            head = head.next;
             return top;
         }
 
@@ -33,7 +48,7 @@ public class stackUsingArrayList {
             if (isEmpty()) {
                 return -1;
             }
-            return list.get(list.size() - 1);
+            return head.data;
         }
     }
 
@@ -43,7 +58,7 @@ public class stackUsingArrayList {
         s.push(1);
         s.push(2);
         s.push(3);
-        s.push(4);
+        s.push(9);
 
         while (!s.isEmpty()) {
             System.out.println(s.peek());
