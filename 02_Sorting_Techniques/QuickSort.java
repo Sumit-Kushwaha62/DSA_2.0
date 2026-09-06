@@ -20,7 +20,7 @@ public class QuickSort {
         int i = start - 1;
 
         for (int j = start; j < end; j++) {
-            if (arr[j]<= pivot) {
+            if (arr[j] <= pivot) {
                 i++;
                 int temp = arr[i];
                 arr[i] = arr[j];
@@ -38,6 +38,7 @@ public class QuickSort {
     public static void main(String[] args) {
         int arr[] = { 2, 9, 4, 7, 5, 8 };
         quickSort(arr, 0, arr.length - 1);
+
         print(arr);
     }
 }
