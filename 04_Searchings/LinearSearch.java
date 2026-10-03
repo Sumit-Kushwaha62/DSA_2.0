@@ -15,9 +15,6 @@ public static int test(int arr[], int target){
 
 
 
-public static test1(int arr[]){
-    
-}
 
 
 
