@@ -1,5 +1,7 @@
 public class reverseDigit {
 
+
+   
     public static boolean isReverse(int n){
         int rev = 0;
         int original = n;

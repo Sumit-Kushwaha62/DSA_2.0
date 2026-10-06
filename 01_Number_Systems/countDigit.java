@@ -1,8 +1,10 @@
-// package Maths;
 
 public class countDigit {
 
-    // Count How many digits have
+
+
+    // ***************************** Count How many digits exits in a number: *****************************************
+
     public static void count(int n) {
         int count = 0;
         if (n == 0) {
@@ -35,11 +37,17 @@ public class countDigit {
     }
 
     public static void main(String[] args) {
-        int n = 121;
+        // int n = 121;
 
-        count(n);
-        System.out.println();
-        System.out.println(divide(n));
+        // count(n);
+        // System.out.println();
+        // System.out.println(divide(n));
+
+
+
+        int num = 43242;
+        System.out.println(test(num));
+        
 
     }
 }
