@@ -24,9 +24,25 @@ public class CheckIfTheArrayIsSorted {
         return true;
     }
 
+
+
+    //>> is array sorted test: done! 
+
+    // public static boolean test(int arr[]){
+
+    //     for(int i = 1; i< arr.length; i++){
+    //         if(arr[i] < arr[i-1]){
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+
     public static void main(String[] args) {
-        int arr[] = { 1, 1, 2, 2, 3, 3 };
-        System.out.println(checkSorted(arr));
+        int arr[] = { 1, 1, 5, 2, 3, 3 };
+        // System.out.println(checkSorted(arr));
+
+        System.out.println(test(arr));
 
     }
 }

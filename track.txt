@@ -1,0 +1,55 @@
+Count all Digits of a Number
+Count number of odd digits in a number
+Reverse a number
+Palindrome Number
+Return the Largest Digit in a Number
+Factorial of a given number
+Check if the Number is Armstrong
+Check for Perfect Number
+Check for Prime Number
+Count of prime numbers till N
+GCD of Two numbers
+LCM of two numbers
+Divisors of a Number 
+
+
+
+
+
+
+
+Basics of Array:
+
+Sum of Array Elements - Done
+Count of odd numbers in Array - Done
+Check if the Array is Sorted - Done
+Reverse an array - Done
+
+
+1. Linear Search - Done
+2. Largest Elements - Done
+
+3. Second Largest Elements 
+4. Maximum Consecutive Ones
+5. Left Rotate Array by Ones
+6. Left Rotate Array by K places 
+
+
+
+// problem armstrong number:
+
+// Helper function to cound digit:
+
+
+public static int countDigit( int num){
+
+    while(num != 0){
+      
+        num++;
+        count = num/10;
+    }
+    return count;
+}
+
+
+
