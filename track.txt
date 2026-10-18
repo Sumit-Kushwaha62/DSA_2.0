@@ -36,20 +36,23 @@ Reverse an array - Done
 
 
 
-// problem armstrong number:
+## String: 
 
-// Helper function to cound digit:
+1. Reverse a STring II
+2. Palindrome Check
+3. 
 
 
-public static int countDigit( int num){
+ 
 
-    while(num != 0){
-      
-        num++;
-        count = num/10;
-    }
-    return count;
-}
+
+
+
+
+
+
+
+
 
 
 
