@@ -1,3 +1,41 @@
+
+
+Octuber:: till 21
+<<----------------------------------->>
+
+
+1. charch sreate - 60 + 60 travel
+2. 320 - book
+
+3. 30 + 30 lalbagh travel
+4. 100 lalbhag tickets for lalbhag 
+
+5. 80+80 - aws event 
+
+
+
+
+
+
+
+pyramid, triangle, diamond, Floyd’s triangle, Pascal’s triangle
+
+>> Arrays
+>> String
+>> Sortings
+>> HashMap
+>> Recursion
+
+>> LinkedList
+>> Stack
+>> Queues
+
+
+
+
+
+## Number Systems: 
+
 Count all Digits of a Number
 Count number of odd digits in a number
 Reverse a number
@@ -14,11 +52,7 @@ Divisors of a Number
 
 
 
-
-
-
-
-Basics of Array:
+## Arrays:
 
 Sum of Array Elements - Done
 Count of odd numbers in Array - Done
@@ -38,12 +72,53 @@ Reverse an array - Done
 
 ## String: 
 
-1. Reverse a STring II
-2. Palindrome Check
-3. 
+Level 1: Basics (must do)
+
+Reverse a string (LeetCode 344)
+Palindrome check (LeetCode 125, Valid Palindrome)
+Valid Anagram (LeetCode 242), jo tum kar chuke ho
+Count vowels/consonants/words
+First non-repeating character (LeetCode 387)
+Remove duplicates from string
+Check if two strings are rotations of each other
+Character frequency count (HashMap/array)
+
+
+Level 2: Most asked in interviews
+
+
+Longest Common Prefix (LeetCode 14)
+Reverse words in a string (LeetCode 151)
+Isomorphic Strings (LeetCode 205)
+Group Anagrams (LeetCode 49)
+Implement strStr / indexOf (LeetCode 28)
+String Compression (LeetCode 443)
+Valid Parentheses (LeetCode 20)
+Roman to Integer (LeetCode 13)
+String to Integer (atoi) (LeetCode 8)
+Add Binary (LeetCode 67)
+Is Subsequence (LeetCode 392)
+Reverse Vowels of a String (LeetCode 345)
+
+
+Level 3: Medium (mid-range companies ke liye)
+
+
+Longest Substring Without Repeating Characters (LeetCode 3), sliding window ka classic
+Longest Palindromic Substring (LeetCode 5)
+Palindromic Substrings (LeetCode 647)
+Minimum Window Substring (LeetCode 76), thoda hard hai, but sliding window samajhne ke liye achha
+Longest Repeating Character Replacement (LeetCode 424)
+Permutation in String (LeetCode 567)
+Find All Anagrams in a String (LeetCode 438)
+Encode and Decode Strings (LeetCode 271)
+Generate Parentheses (LeetCode 22)
+Decode String (LeetCode 394)
 
 
  
+
+
 
 
 
